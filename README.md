@@ -1,4 +1,5 @@
-<div>
-    <h1>HIIII</h1>
-    <h3>Hellllo</h3>
-</div>
+```ruby
+  def foo
+    puts 'bar'
+  end
+```
