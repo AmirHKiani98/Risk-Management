@@ -1,0 +1,1652 @@
+
+
+
+
+
+<html dir="rtl"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="fa">
+ <link rel="stylesheet" type="text/css" media="all" href="js/calendar/skins/aqua/theme.css" title="Aqua" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-blue.css" title="winter" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-blue2.css" title="blue" />
+ 		<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-brown.css" title="summer" />
+		<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-green.css" title="green" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-win2k-1.css" title="win2k-1" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-win2k-2.css" title="win2k-2" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-win2k-cold-1.css" title="win2k-cold-1" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-win2k-cold-2.css" title="win2k-cold-2" />
+	<link rel="alternate stylesheet" type="text/css" media="all" href="js/calendar/skins/calendar-system.css" title="system" />
+<script type="text/javascript" src="js/calendar/jalali.js"></script>
+<script type="text/javascript" src="js/calendar/calendar.js"></script>
+<script type="text/javascript" src="js/calendar/calendar-setup.js"></script>
+<script type="text/javascript" src="js/calendar/lang/calendar-fa.js"></script>
+ <SCRIPT language=JavaScript src="js/Util.js" type="text/javascript"></SCRIPT>
+ <SCRIPT language=JavaScript src="js/parskit/base64.js" type="text/javascript"></SCRIPT>
+ <SCRIPT language=JavaScript src="js/parskit/parskitwebapi.js" type="text/javascript"></SCRIPT>
+ <SCRIPT language=JavaScript src="js/parskit/cert.js" type="text/javascript"></SCRIPT>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<Script>
+$( function() {
+ $('select[name="departmentID"]').val('20');
+ $('select[name="departmentid"]').val('20');
+ $('select[name="departmentid"]').val('20');
+  $('select[name="departmentId"]').val('20');
+  $('select[name="departments"]').val('20');
+  $('select[name="Departments"]').val('20');
+  $('select[name="department"]').val('20'); });</Script>
+<title>
+وضعیت تحصیلی و ریزنمرات دانشجو</title></head>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<body leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 onkeypress="helpMaskKeyPress(event)" onLoad="startclock();" dir="rtl">
+
+<div id="helpDiv" class="helpDiv" style="display:none">﻿<table><tr><td><p style="font-size:12px;font-family:Nesf;"> با سلام؛<br>چنانچه مشاهده می‌فرمایید سامانه آموزش شریف از نظر واسط کاربری بروز رسانی شده است؛ به منظور آشنایی شما با تغییرات سامانه، این راهنما فراهم شده است.<br>1. برای اطمینان از مشاهده منوها به شکل جدید، در صفحه جاری یکبار CTRL+F5 را فشار دهید.<br>2. با کلیک بر روی هر منو می‌توانید زیرمنوهای مربوطه را مشاهده نمایید و با کلیک بر روی هر زیرمنو می‌توان فعالیت مربوطه را انجام داد.<br>3. نام زیرمنوی فعال شما در قسمت چپ صفحه قابل مشاهده است.<br>4. در نوار آبی‌رنگ بالا، نام کاربر جاری، تاریخ آخرین ورود به سامانه (جهت اطلاع شما از زمان قبلی ورود به سامانه) و پیام‌های جدید شما (در صورت وجود)، نمایش داده می‌شود.<br>5. برای خروج از پیوند بالا سمت چپ صفحه استفاده کنید.<br>6. برای کاربرانی که ازیک منوی خاص در طول روز استفاده می‌کنند، امکان حذف منوها و بهره‌گیری بیشتر از فضای صفحه با کلیک بر روی فلش سمت چپ منوها فراهم شده است.<br>7. جهت تماس با تیم تولید و ارائه نظرات خود، از پیوند تماس با ما استفاده نمایید. تیم توسعه از نقطه نظر و پیشنهاد شما استقبال می‌کند و در کوتاهترین زمان ممکن به آن پاسخ خواهد داد.<br>8. برای بستن این راهنما از دکمه بستن استفاده کنید و جهت مشاهده مجدد آن بر روی علامت سوال سمت چپ منوها کلیک نمایید.</p></td></tr><tr><Td align="left" width=100%><input type="button" class="submit" value="بستن" style="background-color : #8ED0EA;" onclick="document.getElementById('helpDiv').style.display='none';"/></td></tr></table></div><table width=100% border=0 height=100%  border=0 cellpadding=0 cellspacing=0  ondblclick="if(document.getElementById('divExamTab')){document.getElementById('divExamTab').style.display='none';};"><tr class="bodybackground"><td width=100% valign=top><form action="action.do"  name="headerMenuForm" method="post"><input type="hidden"name="changeMenu" value="edu.sharif.edu.web.menu.MenuItem@125468ef"/><input type="hidden"name="isShowMenu" /><table border=0 cellpadding=0 cellspacing=0 width=100%  align=center class="menuBlueDark"><tr><td width=100% class="menuBlueDark"  align=left valign=top><table width=100% border=0 ><tr><td width=1% align =right valign=top><div class="closeImage" title="نمایش منوها"  onclick=" document.headerMenuForm.isShowMenu.value='true';document.headerMenuForm.submit();" style="display:none;cursor: pointer;"></div></td><Td width=30% class="mainTitle" align =right><td width=70% ><table width=100% border=0><tr><td class="topStripe" width=100%><table width=100%><tr><td width=5%><nobr><div class="topLinks" align=right style="cursor:none;font-size:10px;">آخرین ورود:&nbsp;<font style="font-size:9px;">&#x202a;۱۴۰۰/۱/۳ ۱۴:۴۱&#x202c;</font></nobr></td><td align=center><input type="hidden" id="serverCurrentTime" value=" 1617473393143"><div class="topLinks" style="font-size:10px;">زمان جاری: &#x202a;۱۴۰۰/۱/۱۴&#x202c;&nbsp;<label id="currentClock"class="topLinks" style="font-size:9px;"></label></td><td width=1%><input type="hidden" name="commandMessage" id="commandMessage" value="" ><div class="topLinks"   onclick="document.headerMenuForm.changeMenu.value='UserPreference*eduMessage';document.headerMenuForm.commandMessage.value='addMessage';document.headerMenuForm.submit();" style="font-size:10px;" ><nobr>تماس با ما</nobr></div></td><td width=1%><img src="images/line.gif" /></tD><td width=1%><div class="topLinks"   onclick=" document.headerMenuForm.changeMenu.value='Exit';document.headerMenuForm.submit();" >خروج</div></td></tr></table></td</tr></table></td></tr></table></td></tr><tr><td valign=top class="menuBlueDark"><div id="DivHeaderOPen" style="display:"><table border=0 cellpadding=0 cellspacing=0  width="100%"><tr><td><table border=0 cellpadding=0 cellspacing=0  ><tr><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td width=10 class="topMenuRightSide" align=center><img src="images/empty.gif" border=0 width=10  height=28></td><td class="topMenu" align=center><div  id="divHeaderfirstpage" class="topMenus"  onclick=" document.headerMenuForm.changeMenu.value='firstpage';document.headerMenuForm.submit();" ><nobr>صفحه اصلی</nobr></div></td><td width=10 class="topMenuLeftSide" align=center><img src="images/empty.gif" border=0 width=10 height=28></td></tr></table></td><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td width=10 class="topMenuRightSide" align=center><img src="images/empty.gif" border=0 width=10  height=28></td><td class="topMenu" align=center><div  id="divHeaderOnlineRegistration" class="topMenus"  onclick=" document.headerMenuForm.changeMenu.value='OnlineRegistration';document.headerMenuForm.submit();" ><nobr>امور ثبت نام و ترمیم </nobr></div></td><td width=10 class="topMenuLeftSide" align=center><img src="images/empty.gif" border=0 width=10 height=28></td></tr></table></td><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td width=10 class="topMenuRightSide" align=center><img src="images/empty.gif" border=0 width=10  height=28></td><td class="topMenu" align=center><div  id="divHeaderregister" class="topMenus"  onclick=" document.headerMenuForm.changeMenu.value='register';document.headerMenuForm.submit();" ><nobr>خدمات آموزشی</nobr></div></td><td width=10 class="topMenuLeftSide" align=center><img src="images/empty.gif" border=0 width=10 height=28></td></tr></table></td><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td  width=10 align=center  class="topMenuRightSideActive" ><img src="images/empty.gif" border=0  width=10 height=28></td><td class="topMenuActive" align=center><div id="divHeaderExamTab" class="topMenus" onclick="if(document.getElementById('divExamTab')&&document.getElementById('divExamTab').style.display=='none'){document.getElementById('divExamTab').style.display='';}else{document.getElementById('divExamTab').style.display='none';}" ><nobr>امور کارنامه</nobr></div></td><td width=10  class="topMenuLeftSideActive" align=center><img src="images/empty.gif" border=0 width=10  height=28></td></tr><tr><td colspan=3  ><div align=center id="divExamTab" valign=top  style="position:absolute;top: 63px;display:none;overflow:auto;overflow-x: hidden;height:112px; px;px;"  ><table border=0 cellpadding=0 cellspacing=0 ><tr><td width=10 height=10 class="topSubMenuLeftActive" ><img src="images/empty.gif" border=0  height=10 width=10></td><td  height=10 class="topSubMenuActive" ><img src="images/empty.gif" border=0  height=10></td><td  width=10 height=10 class="topSubMenuRightActive" ><img src="images/empty.gif" border=0 width=10 height=10></td></tr><tr title="وضعیت تحصیلی و ریزنمرات دانشجو"><td width=10 height=28 class="rightMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td><td height=22 class="rightMenu1"><div class="topLinks"  onclick="document.headerMenuForm.changeMenu.value='ExamTab*DepthSearch';document.headerMenuForm.submit();"><nobr>&nbsp;وضعیت تحصیلی و ریزنمرات دانشجو</nobr></div></td><td width=10 height=28 class="leftMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td></tr><tr title="درخواست کارنامه انگلیسی غیر رسمی(الکترونیکی)"><td width=10 height=28 class="rightMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td><td height=22 class="rightMenu2"><div class="topLinks"  onclick="document.headerMenuForm.changeMenu.value='ExamTab*gettranscriptNoValidVirtual';document.headerMenuForm.submit();"><nobr>&nbsp;درخواست کارنامه انگلیسی غیر رسمی(الکترونیکی)</nobr></div></td><td width=10 height=28 class="leftMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td></tr><tr title="لیست نمرات موقت و ثبت اعتراض"><td width=10 height=28 class="rightMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td><td height=22 class="rightMenu1"><div class="topLinks"  onclick="document.headerMenuForm.changeMenu.value='ExamTab*showTempGradeAndObligate';document.headerMenuForm.submit();"><nobr>&nbsp;لیست نمرات موقت و ثبت اعتراض</nobr></div></td><td width=10 height=28 class="leftMenuActive" ><img src="images/empty.gif" border=0  height=28 width=10></td></tr><tr><td width=10 height=15 class="bottomSubMenuLeftActive" ><img src="images/empty.gif" border=0  height=15 width=10></td><td  height=15 class="bottomSubMenuActive" ><img src="images/empty.gif" border=0  height=15></td><td  width=10 height=15 class="bottomSubMenuRightActive" ><img src="images/empty.gif" border=0 width=10 height=15></td></tr></table></div><script>document.getElementById("divExamTab" ).style.left=document.getElementById("divExamTab" ).style.right=document.getElementById('divHeaderExamTab').style.right;</script></td></tr></table></td><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td width=10 class="topMenuRightSide" align=center><img src="images/empty.gif" border=0 width=10  height=28></td><td class="topMenu" align=center><div  id="divHeadersanjesh" class="topMenus"  onclick=" document.headerMenuForm.changeMenu.value='sanjesh';document.headerMenuForm.submit();" ><nobr>نظارت و ارزیابی</nobr></div></td><td width=10 class="topMenuLeftSide" align=center><img src="images/empty.gif" border=0 width=10 height=28></td></tr></table></td><td align=right><table border=0 cellpadding=0 cellspacing=0 class="menuParentBG" width=100%><tr><td width=10 class="topMenuRightSide" align=center><img src="images/empty.gif" border=0 width=10  height=28></td><td class="topMenu" align=center><div  id="divHeaderUserPreference" class="topMenus"  onclick=" document.headerMenuForm.changeMenu.value='UserPreference';document.headerMenuForm.submit();" ><nobr>مطلوبات کاربر</nobr></div></td><td width=10 class="topMenuLeftSide" align=center><img src="images/empty.gif" border=0 width=10 height=28></td></tr></table></td></td></tr></table></td><td valign="top"> <input type="hidden" name="defaultCss" id="defaultCss" > <TABLE border=0 width=60 height=10><TR><TD width="25%" height=15 ><div class="style3" id="style3" onclick=" document.headerMenuForm.changeMenu.value='UserPreference*UISpec';document.headerMenuForm.commandMessage.value='changeCss';document.headerMenuForm.defaultCss.value='style3';document.headerMenuForm.submit();" title="تغییر الگو"style="position:absolute;top:30px;left:5px;cursor: pointer;display:"></div><div class="style2" id="style2" onclick=" document.headerMenuForm.changeMenu.value='UserPreference*UISpec';document.headerMenuForm.commandMessage.value='changeCss';document.headerMenuForm.defaultCss.value='style2';document.headerMenuForm.submit();" title="تغییر الگو"style="position:absolute;top:30px;left:20px;cursor: pointer;display:"></div><div class="default" id="default" onclick=" document.headerMenuForm.changeMenu.value='UserPreference*UISpec';document.headerMenuForm.commandMessage.value='changeCss';document.headerMenuForm.defaultCss.value='default';document.headerMenuForm.submit();" title="تغییر الگو"style="position:absolute;top:30px;left:35px;cursor: pointer;display:"></div><div class="style1" id="style1" onclick=" document.headerMenuForm.changeMenu.value='UserPreference*UISpec';document.headerMenuForm.commandMessage.value='changeCss';document.headerMenuForm.defaultCss.value='style1';document.headerMenuForm.submit();" title="تغییر الگو"style="position:absolute;top:30px;left:50px;cursor: pointer;display:"></div></TD></TR></TABLE></td></tr></table></div></td></tr><tr><td width=100% class="middleStripe" ></td></tr><tr><td  align=left valign=top  style="height:27px;" width=100% ><table width=100% border=0 cellpadding=0 cellspacing=0 style="border-collapse:collapse" valign=top ><tr><td  valign=top  class="bodybackground" style="height:27px;" width=80% >&nbsp;<div class="topLinks" style="font-size:14px;color:red;margin-top: -10px;"><b>&nbsp;<nobr>پست الکترونیکی شما:amirhkiani98@yahoo.com</div></td><td class="selectMenuTitleRight" width=10  height=27 ><img src="images/empty.gif" border=0  height=27 width=10 ><div class="helpImage" id="helpHeaderImage" onclick=" document.getElementById('helpDiv').style.display='';" title="راهنما"style="position:absolute;top:47px;left:5px;cursor: pointer;display:"></div> <div class="openImage" id="openHeaderImage" onclick=" document.headerMenuForm.isShowMenu.value='false';document.headerMenuForm.submit();" title="بستن منوها"style="position:absolute;top:47px;left:21px;cursor: pointer;display:"></div></td><td align=center style="height:14px;" width=20% class="selectedMenuTitle"><div class="toplinks" style="cursor:none"><nobr>وضعیت تحصیلی و ریزنمرات دانشجو</nobr></div></td></tR> </table></td></tr></table></form><form action="action.do"  name="changeUserForm" method="post"><input type="hidden" name="commandChangeUser" value="changeCurrentUser"><input type="hidden" name="newUserName" value="" ></form></td></div></tr><Tr><tD width=100% height=100% valign=top class="bodybackground" >
+
+<br>
+<table>
+<tr>
+<td>
+<form method="post" action="action.do?command=return1">
+<input type="submit" value="بازگشت" class="submit" >
+</form>
+</td>
+</tr>
+</table>
+
+
+
+<a name="label"></a>
+<b>
+ریز نمرات
+</b>
+<table class="contentTable" width="60%">
+<tr>
+
+<td class="header" width="10%">ترم</td>
+
+<td class="header" width="10%">کد درس</td>
+<td class="header" width="30%">نام درس</td>
+
+<td class="header" width="25%">نام استاد</td>
+
+<td class="header" width="7%">واحد</td>
+
+<td class="header" width="18%">نمره</td>
+
+<td class="header" width="18%">رتبه در کلاس</td>
+
+<td class="header" width="18%">تعداد نفرات</td>
+
+
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 22015
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ ریاضی عمومی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  غلامزاده محمودی
+</nobr>
+</td>
+<td class="contentCell">4</td>
+<td class="contentCell">
+ 15.2
+<td class="contentCell">57</td>
+<td class="contentCell">213</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 23001
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آز شیمی عمومی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  باقرزاده
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 16.5
+<td class="contentCell">18</td>
+<td class="contentCell">20</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 23011
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ شیمی عمومی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  تفضلی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 14.8
+<td class="contentCell">20</td>
+<td class="contentCell">28</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 24011
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ فیزیک ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  ابوالحسنی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 15.5
+<td class="contentCell">16</td>
+<td class="contentCell">38</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37123
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اخلاق اسلامی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  موحدنژاد
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 19.9
+<td class="contentCell">24</td>
+<td class="contentCell">51</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13961</nobr></td>
+<td class="contentCell">
+<nobr>
+ 40153
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مبانی برنامه‌سازی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  طالبی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 11.0
+<td class="contentCell">48</td>
+<td class="contentCell">58</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20011
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ استاتیک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  علیجانی مقدم
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 15.1
+<td class="contentCell">15</td>
+<td class="contentCell">34</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20513
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ نقشه‌برداری ۱ و عملیات
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  عالمی راد
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 16.5
+<td class="contentCell">14</td>
+<td class="contentCell">32</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 22016
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ ریاضی عمومی ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  مقدسی
+</nobr>
+</td>
+<td class="contentCell">4</td>
+<td class="contentCell">
+ 13.9
+<td class="contentCell">67</td>
+<td class="contentCell">185</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 24001
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آز فیزیک ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  بهمن آبادی
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 18.7
+<td class="contentCell">20</td>
+<td class="contentCell">38</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 24012
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ فیزیک ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  ایرجی زاد
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.0
+<td class="contentCell">4</td>
+<td class="contentCell">22</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 31119
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آشنایی با ادبیات فارسی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  جواهریان
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.5
+<td class="contentCell">25</td>
+<td class="contentCell">51</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13962</nobr></td>
+<td class="contentCell">
+<nobr>
+ 35201
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ گرافیک مهندسی عمران
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  مردانی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 19.0
+<td class="contentCell">9</td>
+<td class="contentCell">24</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20005
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آمار و احتمال مهندسی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  عبدوس
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 16.0
+<td class="contentCell">22</td>
+<td class="contentCell">28</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20006
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ محاسبات عددی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  کیانفر
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 15.0
+<td class="contentCell">14</td>
+<td class="contentCell">17</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20012
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ دینامیک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  بخشی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 13.0
+<td class="contentCell">18</td>
+<td class="contentCell">32</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20111
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مکانیک جامدات ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  محمدی شجاع
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 11.2
+<td class="contentCell">16</td>
+<td class="contentCell">24</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20451
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ زمین‌شناسی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  نوزعیم
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 10.0
+<td class="contentCell">65</td>
+<td class="contentCell">67</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13971</nobr></td>
+<td class="contentCell">
+<nobr>
+ 22034
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ معادلات دیفرانسیل
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  شریفی تبار
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 16.3
+<td class="contentCell">41</td>
+<td class="contentCell">161</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20101
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آز جامدات
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  توفیق
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 17.8
+<td class="contentCell">4</td>
+<td class="contentCell">9</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20121
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ تئوری سازه ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  محتشم دولتشاهی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 14.5
+<td class="contentCell">24</td>
+<td class="contentCell">46</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20208
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مصالح‌ساختمانی‌ و تکنولوژی‌ بتن‌ و آز
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  مبینی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 14.5
+<td class="contentCell">38</td>
+<td class="contentCell">45</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20615
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مکانیک سیالات
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صفائی نعمت اللهی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.7
+<td class="contentCell">9</td>
+<td class="contentCell">38</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20629
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ هیدرولوژی مهندسی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  مقیم
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 15.3
+<td class="contentCell">35</td>
+<td class="contentCell">50</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 31123
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ زبان خارجی 
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  خسروی زاده فروشانی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 14.8
+<td class="contentCell">15</td>
+<td class="contentCell">21</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 33018
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ کارگاه عمومی 
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  فرخنده،  مرفوع،  زینت لو عجب شیر
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 17.1
+<td class="contentCell">69</td>
+<td class="contentCell">101</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13972</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37489
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ تفسیر موضوعی قرآن
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  فیروزیان
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 14.5
+<td class="contentCell">45</td>
+<td class="contentCell">48</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20013
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ تئوری سازه ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  زرفام
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 14.2
+<td class="contentCell">17</td>
+<td class="contentCell">27</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20209
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ بارگذاری
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  رحمت آبادی
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 14.7
+<td class="contentCell">22</td>
+<td class="contentCell">37</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20221
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طرح سازه‌های فولادی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  ملکی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 10.0
+<td class="contentCell">29</td>
+<td class="contentCell">32</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20231
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طرح سازه‌های بتنی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  اسکندری
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">W</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">33</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20411
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مکانیک خاک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  احمدی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 11.2
+<td class="contentCell">33</td>
+<td class="contentCell">42</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20611
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ هیدرولیک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  راعی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.1
+<td class="contentCell">7</td>
+<td class="contentCell">27</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 30003
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ تربیت بدنی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  بقائیان
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 17.1
+<td class="contentCell">11</td>
+<td class="contentCell">16</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13981</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37626
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ انقلاب اسلامی ایران
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  طهماسبی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 19.3
+<td class="contentCell">19</td>
+<td class="contentCell">49</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20224
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طرح سازه‌های فولادی ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  ملکی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">W</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">26</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20231
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طرح سازه‌های بتنی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  خالو
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 16.6
+<td class="contentCell">7</td>
+<td class="contentCell">27</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20309
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مدیریت پروژه و ساخت
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  حاج کاظم کاشانی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 15.0
+<td class="contentCell">12</td>
+<td class="contentCell">14</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20401
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آز مکانیک خاک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صادقی
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 18.1
+<td class="contentCell">10</td>
+<td class="contentCell">15</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20413
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مهندسی پی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صادقی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.3
+<td class="contentCell">16</td>
+<td class="contentCell">29</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20436
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ روسازی راه و آز
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صبوری
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.0
+<td class="contentCell">9</td>
+<td class="contentCell">19</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37445
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اندیشه اسلامی ۱
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  میرزا ابوالحسنی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 20.0
+<td class="contentCell">1</td>
+<td class="contentCell">49</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13982</nobr></td>
+<td class="contentCell">
+<nobr>
+ 44714
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مبانی اقتصاد
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  نیلی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">P (قبول)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">121</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20017
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طراحی سازه‌های بتنی ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  اسکندری
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 15.2
+<td class="contentCell">8</td>
+<td class="contentCell">23</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20120
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مهندسی راه و ترافیک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  امینی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 15.7
+<td class="contentCell">12</td>
+<td class="contentCell">45</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20224
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طرح سازه‌های فولادی ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  اسمعیل پوراستکانچی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 18.3
+<td class="contentCell">6</td>
+<td class="contentCell">21</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20311
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ روش‌های‌ ساخت و ماشین‌های‌ راهسازی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  حاج کاظم کاشانی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 17.6
+<td class="contentCell">15</td>
+<td class="contentCell">45</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20601
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ آز هیدرولیک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  عطائی آشتیانی
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 17.2
+<td class="contentCell">18</td>
+<td class="contentCell">27</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37622
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ تاریخ امامت
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صالحی زاده
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 20.0
+<td class="contentCell">1</td>
+<td class="contentCell">52</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 40244
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ برنامه‌سازی پیشرفته
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  سلمانی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 20.0
+<td class="contentCell">1</td>
+<td class="contentCell">45</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13991</nobr></td>
+<td class="contentCell">
+<nobr>
+ 44719
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اقتصاد خرد دوره فرعی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  زمانیان
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 16.5
+<td class="contentCell">42</td>
+<td class="contentCell">53</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20323
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ طراحی معماری
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  مردانی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">22</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20427
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ پروژه راه
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  نصیری
+</nobr>
+</td>
+<td class="contentCell">1</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">12</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20501
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مبانی مدیریت ریسک
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صمیمی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">10</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20669
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مهندسی محیط زیست
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  دانش یزدی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">41</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 20891
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ مطالعه خاص
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  صبوری
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">23</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 37446
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اندیشه اسلامی ۲
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  فیضی
+</nobr>
+</td>
+<td class="contentCell">2</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">49</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 44720
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اقتصادسنجی دوره فرعی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  امن زاده
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">29</td>
+</tr>
+
+<tr>
+
+<td class="contentCell"><nobr>13992</nobr></td>
+<td class="contentCell">
+<nobr>
+ 44728
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+ اقتصاد کلان دوره فرعی
+ </nobr>
+ </td>
+<td class="contentCell">
+<nobr>
+  بخشی آنی
+</nobr>
+</td>
+<td class="contentCell">3</td>
+<td class="contentCell">
+ 
+<nobr>
+ <font class="bgCell">N (نا مشخص)</font>
+</nobr>
+ </td>
+
+<td class="contentCell">0</td>
+<td class="contentCell">38</td>
+</tr>
+
+</table>
+
+<script type="text/javascript" language="JavaScript">
+var str = document.location.toString();
+
+if (str.match("#label") != "#label" ){
+
+document.location = document.location+ "#label";
+}
+</script>
+</td></tr><tr><Td width=100% class="footer" align=center><table><tr><td class="footer"><nobr>  کاربر جاری:امیرحسین کیانی</nobr></td><Td width=100% class="footer" align=center>سپهر، سامانه آموزش دانشگاه صنعتی شریف؛ نسخه 7.0.3<br>کلیه حقوق این نرم افزار متعلق به دانشگاه صنعتی شریف است.&nbsp;&copy;</td></tr></table></td></tr></table>
+</font></body>
+<script type="text/javascript" language="JavaScript">
+function helpMaskKeyPress(objEvent,helpButton){
+  var iKeyCode;          iKeyCode = objEvent.keyCode;
+          if ( helpButton != null){
+                var winW = 0;
+                var winH = 0;
+                if (parseInt(navigator.appVersion)>3) {
+                         if (navigator.appName=="Netscape") {
+                                  winW = window.innerWidth;
+                                  winH = window.innerHeight;
+                         }
+                         if (navigator.appName.indexOf("Microsoft")!=-1) {
+                                  winW = document.body.offsetWidth;
+                                  winH = document.body.offsetHeight;
+                         }
+                }
+                winW -= 100;
+                winH -= 100;
+                if (winW < 640){
+                        winW = 640;
+                }
+                if (winH <480 ){
+                        winH = 480;
+                }
+                window.open('/help.do' ,'','left=20,top=20,width='+winW+',height='+winH+',toolbar=1,resizable=1,location=1,directories=1,status=1,menubar=1,scrollbars=1');
+        }
+}
+</script>
+</html>
