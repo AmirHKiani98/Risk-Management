@@ -1,0 +1,21 @@
+Call:
+lm(formula = wage1$wage ~ wage1$female + wage1$educ + wage1$exper + 
+    wage1$tenure)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7.7675 -1.8080 -0.4229  1.0467 14.0075 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -1.56794    0.72455  -2.164   0.0309 *  
+wage1$female -1.81085    0.26483  -6.838 2.26e-11 ***
+wage1$educ    0.57150    0.04934  11.584  < 2e-16 ***
+wage1$exper   0.02540    0.01157   2.195   0.0286 *  
+wage1$tenure  0.14101    0.02116   6.663 6.83e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.958 on 521 degrees of freedom
+Multiple R-squared:  0.3635,	Adjusted R-squared:  0.3587 
+F-statistic:  74.4 on 4 and 521 DF,  p-value: < 2.2e-16
