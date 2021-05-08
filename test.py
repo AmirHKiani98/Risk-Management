@@ -1,4 +1,4 @@
-my_string = "string1 is string1. string2 is string2. but string3 is not string3!!!"
+my_string = "string1 is string1. string2 is string2. but strinsg3 is not string3!!!"
 if "string1" in my_string:
     print("string1 is in my_string")
 if ("string1" in my_string and "string4" in my_string):
