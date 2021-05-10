@@ -2,12 +2,8 @@
 
 ## Introduction
 
-Hi
+This a private project with decided to set as public. so you are welcome to use it and comment on every section.
 
-I am Amirhossein Kiani, a student of **Risk Managemnt** course.
+The project will be updated as gradually.
 
-I'm gonna program content of this course, due to prof. Samimi A. presentations
-
-Feel free to contact me through this email: amirhkiani98@yahoo.com
-
-## chi-square
+Every folder has its own **Readme** which you can use it as documentation of the codes which has been placed in that folder.
