@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This a private project with decided to set as public. so you are welcome to use it and comment on every section.
+This a private project which i've been decided to set it as public. so you are welcome to use it and comment on every section.
 
-The project will be updated as gradually.
+The project will be updated gradually.
 
-Every folder has its own **Readme** which you can use it as documentation of the codes which has been placed in that folder.
+Every folder has its own **Readme** which you can use it as documentation.
